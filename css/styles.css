@@ -28,12 +28,12 @@ h3 {
   color: #2bb2bb;
 }
 
-a {
+.footer-link {
   color: #11999E;
   font-family: 'Quicksand', sans-serif;
   text-decoration: none;
 }
-a:hover{
+.footer-link:hover{
   color:black;
 }
 
@@ -78,6 +78,10 @@ hr {
   position: relative;
   left: 5px;
   bottom: 400px;
+}
+.linkedin-icon{
+  position: relative;
+  top: 7px;
 }
 .middlecloud{
   position: absolute;
@@ -162,4 +166,18 @@ hr {
    color:#336d88;
    font-size:0.75em;
    padding:20px 0;
+}
+table,tr,th{
+  margin:auto;
+  font-family:'Quicksand', sans-serif;
+  color:#5e6f64;
+  font-size: 15px;
+  border: 1px solid #24a19c;
+  width: 50%;
+  border-width: thin;
+}
+.aboutme{
+  width:10%;
+float:left;
+margin-left:400px;
 }
